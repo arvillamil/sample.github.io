@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+body{
+	background-color: black;
+}
+
+section {
+	background-color: white;
+	float: left;
+	width: 75%;
+	margin: 5px;
+	padding: 5px;
+}
+
+aside {
+	background-color: white;
+	font-family: arial black;
+	font-size: 50;
+	float: right;
+	text-align: center;
+	width: 20%;
+	height: 100%;
+	margin: 5px;
+	padding: 5px;
+}
+
+footer {
+	background-color: red;
+	clear: both;
+    text-align: center;
+    color: white;
+}
+
+
+.banner	 {
+	max-width: 100%;
+	height: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+	font-family: Arial black;
+}
+
+li a:hover {
+    background-color: #111111;
+}
